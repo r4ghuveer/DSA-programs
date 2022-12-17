@@ -20,7 +20,7 @@ int main(){
         }
     }
     
-    
+
     if(s.size()%umap[1]==0){
         for(int i=0;i<s.size();){
             if(s.substr(i,umap[1])==key){
