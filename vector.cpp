@@ -40,45 +40,46 @@ using namespace std;
 // }
 
 int main(){
-    // vector <int> nums1 {1,6};
-    // vector <int> nums2 {4,2,3};
-    // nums1.insert(nums1.end(),nums2.begin()+1,nums2.end());
-    // cout<< nums1.size();
-    // for (vector<int>:: iterator it = nums1.begin();it!=nums1.end();++it){
-    //     cout<<*it<<endl;
-    // }
-
-    vector<int> nums={1,1,2};
-    int len=nums.size();
-    int i=1;
-    int k=0;
-    vector<int> :: iterator itr;
-    itr=nums.begin();
-    while(itr!=nums.end()){
-        if (nums[i]==nums[i-1]){
-            nums.erase(itr);
-            k=k+1;
-            
-            
-            
-            
-            
-        }
-        else{
-            i++;
-            
-            itr++;
-        }
-        
-        
+    vector <int> nums1 {1,6};
+    vector <int> nums2 {4,2,3};
+    nums2[2]=7;
+    nums1.insert(nums1.end(),nums2.begin()+1,nums2.end());
+    cout<< nums1.size();
+    for (vector<int>:: iterator it = nums1.begin();it!=nums1.end();++it){
+        cout<<*it<<endl;
     }
-   cout<<nums.size()+1<<endl;
-   
-   
-    for (int j=0; j<nums.size();j++){
-        cout<<nums[j]<<endl;
 
-}
-int p=10^2;
-cout<<p;
+//     vector<int> nums={1,1,2};
+//     int len=nums.size();
+//     int i=1;
+//     int k=0;
+//     vector<int> :: iterator itr;
+//     itr=nums.begin();
+//     while(itr!=nums.end()){
+//         if (nums[i]==nums[i-1]){
+//             nums.erase(itr);
+//             k=k+1;
+            
+            
+            
+            
+            
+//         }
+//         else{
+//             i++;
+            
+//             itr++;
+//         }
+        
+        
+//     }
+//    cout<<nums.size()+1<<endl;
+   
+   
+//     for (int j=0; j<nums.size();j++){
+//         cout<<nums[j]<<endl;
+
+// }
+// int p=10^2;
+// cout<<p;
 }
