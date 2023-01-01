@@ -9,11 +9,12 @@ int main()
     mymap[11] = 1;
     mymap[12] = 2;
     mymap[13] = 3;
+    mymap[11] = 69;
  
     // using begin() to print map
     for (auto it = mymap.begin();
          it != mymap.end(); ++it)
-        cout << it->first + 1 << " = "
+        cout << it->first << " = "
              << it->second << '\n';
     return 0;
 }
