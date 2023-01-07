@@ -4,7 +4,6 @@ int main(){
     int T;
     cin>>T;
     int sum=0;
-    int sum2=0;
     int ve=0;
     int arr[T];
     for(int i=0;i<T;i++){
