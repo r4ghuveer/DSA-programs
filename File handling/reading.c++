@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 int main(){
     string c;
@@ -7,13 +8,11 @@ int main(){
     int count=10;
     bool y=true;
     while(y){
-        c>>x;
+        cin>>x;
         if (count==0){
             y=false;
         }
-        else{
-            break;
-        }
+        
         cout<<x;
 
     }
