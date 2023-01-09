@@ -13,7 +13,6 @@ int main(){
             y=false;
         }
         
-        cout<<x;
 
     }
 }
