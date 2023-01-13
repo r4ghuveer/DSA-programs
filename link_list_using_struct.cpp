@@ -18,21 +18,35 @@ void insert(int new_data) {
       temp=new_node;
    }
 }
-void display() { 
+struct Node* reverseList(struct Node* head) {
+   if(head==NULL or !head->next ){ 
+      return head;
+                     
+   }
+   struct Node* value = reverseList(head->next);
+   head->next->next=head;
+   head->next=NULL; 
+   cout<<head->next->next->data<<" ";
+
+   return value;
+}
+void display(struct Node* ans) { 
    struct Node* ptr;
-   ptr = head;
+   ptr = ans;
    while (ptr != NULL) { 
       cout<< ptr->data <<" "; 
       ptr = ptr->next; 
    } 
 } 
 int main() { 
-   insert(3);
    insert(1);
-   insert(7);
    insert(2);
-   insert(9);
+   insert(3);
+   insert(4);
+   
    cout<<"The linked list is: ";
-   display(); 
+   struct Node* ans;
+   ans=reverseList(head);
+   // display(ans); 
   return 0; 
 }

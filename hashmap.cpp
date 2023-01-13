@@ -7,10 +7,10 @@ int main()
     // declaration of map container
     map<int, int> mymap;
     mymap[11] = 1;
+    mymap[11] = 69;
     mymap[12] = 2;
     mymap[13] = 3;
-    mymap[11] = 69;
-    if(mymap.find(11)!=mymap.end()){
+    if(mymap.find(1)!=mymap.end()){
         cout<<"dayyyyymmmmm";
     }
     else{
