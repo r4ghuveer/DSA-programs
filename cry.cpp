@@ -11,9 +11,11 @@ int main(){
 // 55  7         
 // 56  8         
 // 57  9
+
     int x;
     x=int('0');
     cout<<x;
+    cout<<"converted";
     // int i=0;
     // string s="dog cat cat dog";
     // istringstream a(s);
