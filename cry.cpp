@@ -17,7 +17,12 @@ int main(){
     cout<<x;
     cout<<"converted";
     // int i=0;
-    
+    // string s="dog cat cat dog";
+    // istringstream a(s);
+    // for(string word; a>>word;++i){
+    //     cout<<word<<" ";
+    //     i++;
+    // }
     
 
 }
