@@ -25,11 +25,15 @@ struct Node* reverseList(struct Node* head) {
    }
    struct Node* value = reverseList(head->next);
    head->next->next=head;
-   head->next=NULL; 
-   cout<<head->next->next->data<<" ";
-
+   head->next=NULL;
    return value;
 }
+int middleNode(struct Node* head) {
+        struct Node *slow = head, *fast = head;
+        while (fast && fast->next)
+            slow = slow->next, fast = fast->next->next;
+        return slow->data;
+    }
 void display(struct Node* ans) { 
    struct Node* ptr;
    ptr = ans;
@@ -46,7 +50,10 @@ int main() {
    
    cout<<"The linked list is: ";
    struct Node* ans;
-   ans=reverseList(head);
-   // display(ans); 
+   int mid;
+   // ans=reverseList(head);
+   // display(ans);
+   mid=middleNode(head);
+   cout<<"The middle value is : "<<mid;
   return 0; 
 }
