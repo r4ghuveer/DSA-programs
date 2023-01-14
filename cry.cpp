@@ -14,7 +14,7 @@ int main(){
 
     int x;
     x=int('0');
-    cout<<x;
+    cout<<x<<endl;
     cout<<"converted";
     // int i=0;
     // string s="dog cat cat dog";
@@ -23,6 +23,4 @@ int main(){
     //     cout<<word<<" ";
     //     i++;
     // }
-    
-
 }

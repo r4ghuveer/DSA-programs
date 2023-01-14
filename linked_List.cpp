@@ -32,7 +32,6 @@ int main(){
     tail->data=5;
     tail->next=NULL;
     c+=(head->data?head->data:0)+(n2->data?n2->data:0);
-  
     cout<<c;
 
     
