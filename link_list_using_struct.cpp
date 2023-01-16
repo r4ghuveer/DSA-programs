@@ -48,8 +48,8 @@ int main() {
    insert(3);
    insert(4);
    
-   cout<<"The linked list is: ";
-   struct Node* ans;
+   // cout<<"The linked list is: ";
+   // struct Node* ans;
    int mid;
    // ans=reverseList(head);
    // display(ans);

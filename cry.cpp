@@ -12,8 +12,8 @@ int main(){
 // 56  8         
 // 57  9
 
-    int x;
-    x=int('0');
+    char x;
+    x=int('1');
     cout<<x<<endl;
     cout<<"converted";
     // int i=0;

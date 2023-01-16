@@ -44,6 +44,7 @@ int main(){
     vector <int> nums2 {4,2,3};
     nums2[2]=7;
     nums1.insert(nums1.end(),nums2.begin()+1,nums2.end());
+    nums1.resize(0);
     cout<< nums1.size()<<endl;
     for (vector<int>:: iterator it = nums1.begin();it!=nums1.end();++it){
         cout<<*it<<endl;
