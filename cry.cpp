@@ -16,11 +16,11 @@ int main(){
     x=int('1');
     cout<<x<<endl;
     cout<<"converted";
-    // int i=0;
-    // string s="dog cat cat dog";
-    // istringstream a(s);
-    // for(string word; a>>word;++i){
-    //     cout<<word<<" ";
-    //     i++;
-    // }
+    int i=0;
+    string s="dog cat cat dog";
+    istringstream a(s);
+    for(string word; a>>word;++i){
+        cout<<word<<" ";
+        i++;
+    }
 }
