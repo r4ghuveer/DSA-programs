@@ -15,8 +15,7 @@ BstNode * GetNewNode (int data){
 }
 BstNode *Insert (BstNode *temp, int data){
     if (root==NULL){
-        root =GetNewNode(data);
-        
+        root =GetNewNode(data);  
     }
     else if (temp==NULL){
 
@@ -32,7 +31,6 @@ BstNode *Insert (BstNode *temp, int data){
     return temp;
     
 }
-
 int height(BstNode *pointer){
     int h;
     if (pointer==NULL){
