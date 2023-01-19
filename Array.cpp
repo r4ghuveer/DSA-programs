@@ -8,7 +8,7 @@ int main(){
         int in;
         cin>>in;
         arr[i]=in;
-        
+        //increment i
         i++;
     }
     cout<<&arr[0]<<endl;
