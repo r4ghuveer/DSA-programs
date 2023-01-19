@@ -3,7 +3,7 @@
 #include <iostream>
 using namespace std;
 int main(){
-    string s="abcabcabcabc";
+    string s="abcabc";
     bool A;
     int l;
     unordered_map <int,int> umap;
@@ -19,7 +19,6 @@ int main(){
             i+=1;
         }
     }
-    
 
     if(s.size()%umap[1]==0){
         for(int i=0;i<s.size();){
