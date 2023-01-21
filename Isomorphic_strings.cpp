@@ -1,7 +1,7 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
-string s="egg";
+string s="egg"; //e->a  g->d
 string t="add";
 if(s.size()!=t.size()){
     return false;
