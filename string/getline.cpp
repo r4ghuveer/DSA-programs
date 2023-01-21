@@ -5,5 +5,5 @@ using namespace std;
 int main(){
     string g;
     getline(cin,g,"");
-    cout<<"the string is : - <<g;
+    cout<<"the string is : - "<<g;//Printing string
 }
