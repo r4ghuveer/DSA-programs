@@ -23,13 +23,13 @@ int main(){
     //     cout<<word<<" ";
     //     i++;
     // }
-
-    list<vector<int>> togo;
-    togo.push_back({3,3});
-    for (auto x : togo){
-        vector<int> y = x;
-        for(auto u : y){
-            cout<<u;
-        }
-    }
+    cout<<'c'-'a';
+    // list<vector<int>> togo;
+    // togo.push_back({3,3});
+    // for (auto x : togo){
+    //     vector<int> y = x;
+    //     for(auto u : y){
+    //         cout<<u;
+    //     }
+    // }
 }
