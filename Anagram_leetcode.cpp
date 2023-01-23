@@ -52,13 +52,6 @@ int main(){
         freq_p[p[i]-'a']++;
         window[s[i]-'a']++;
     }
-    for(auto x : window){
-        cout<<x<<" ";
-    }
-    cout<<endl;
-    for(auto x : freq_p){
-        cout<<x<<" ";
-    }
     
     vector<int> ans;
     if(freq_p == window) ans.push_back(0);
