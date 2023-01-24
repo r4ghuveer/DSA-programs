@@ -39,12 +39,14 @@ int main()
     
     // string s = string(1,char(8+'0')) + "llooll";
     // cout<<s<<endl; 
-    vector<int> sVec(10, 0);
-    sVec['7'-'0']++;
-    for(auto x: sVec){
-        cout<< x << " ";
-    }
-
+    // vector<int> sVec(10, 0);
+    // sVec['7'-'0']++;
+    // for(auto x: sVec){
+    //     cout<< x << " ";
+    // }
+    string s="";
+    s=s+'t';
+    cout<<s;
     return 0;
     // cout<<mymap[Node1];
     
