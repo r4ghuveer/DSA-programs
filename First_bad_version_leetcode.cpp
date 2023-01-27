@@ -18,3 +18,4 @@ public:
         return end;
     }
 };
+// Code in c++ to generate a loading animation
