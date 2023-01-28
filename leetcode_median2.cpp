@@ -19,8 +19,8 @@ public:
             
             float n3 = (float)(nums1[n1]+nums1[n2])/2;
             cout<< n3;
-            enter the number a
-            enter the nun
+            // enter the number a
+            // enter the nun
             
         }
     }
