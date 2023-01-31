@@ -34,6 +34,20 @@ int middleNode(struct Node* head) {
             slow = slow->next, fast = fast->next->next;
         return slow->data;
     }
+struct Node* oddEvenList(struct Node* head) {
+        struct Node* curr = head;
+        struct Node* eve1=curr->next;
+        struct Node* eve=curr->next;
+        while(curr->next ){
+            cout<<"hello";
+            curr->next=curr->next->next;
+            eve->next=eve->next->next;
+            curr=curr->next;
+            eve=eve->next;
+        }
+        curr->next=eve1;
+        return head;
+    }
 void display(struct Node* ans) { 
    struct Node* ptr;
    ptr = ans;
@@ -47,13 +61,18 @@ int main() {
    insert(2);
    insert(3);
    insert(4);
+   insert(5);
+   insert(6);
+   insert(7);
    
    // cout<<"The linked list is: ";
-   // struct Node* ans;
-   int mid;
+   struct Node* ans;
+   // int mid;
    // ans=reverseList(head);
    // display(ans);
-   mid=middleNode(head);
-   cout<<"The middle value is : "<<mid;
+   // mid=middleNode(head);
+   ans=oddEvenList(head);
+   display(ans);
+   // cout<<"The middle value is : "<<mid;
   return 0; 
 }
