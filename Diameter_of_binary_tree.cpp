@@ -1,29 +1,16 @@
-#include <iostream>
-#include <vector>
-
-void separate_digits(const std::vector<int>& input, std::vector<int>& output) {
-    for (int num : input) {
-        int n = num;
-        int digits = 0;
-        int temp = n;
-        while (temp > 0) {
-            digits++;
-            temp /= 10;
-        }
-        for (int i = digits - 1; i >= 0; i--) {
-            output.push_back(n % 10);
-            n /= 10;
-        }
+class Solution {
+public:
+    int diameterOfBinaryTree(TreeNode* root) {
+        int d=0;
+        rec(root, d);
+        return d;
     }
-}
-
-int main() {
-    std::vector<int> input = { 123, 456, 789 };
-    std::vector<int> output;
-    separate_digits(input, output);
-    for (int digit : output) {
-        std::cout << digit << " ";
+    
+    int rec(TreeNode* root, int &d) {
+        if(root == NULL) return 0;
+        int ld = rec(root->left, d);
+        int rd = rec(root->right, d);
+        d=max(d,ld+rd);
+        return max(ld,rd)+1;
     }
-    std::cout << std::endl;
-    return 0;
-}
+};
