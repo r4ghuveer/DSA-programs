@@ -15,7 +15,6 @@ vector<vector<int>> getAllSubSequencesOfLengthK(vector<int> nums, int k) {
     }
     return result;
 }
-
 int main() {
     vector<int> nums = {1, 2, 3, 4};
     int k = 2;
