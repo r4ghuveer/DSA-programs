@@ -11,7 +11,15 @@ int main(){
 // 55  7         
 // 56  8         
 // 57  9
-
+    int i=952;
+    string str=to_string(952);
+    str[1]='2';
+    str.push_back('3');
+    string str2;
+    str2.push_back('0');
+    str2.push_back('1');
+    cout<<stoi(str2)<<endl;
+    cout<<str;
     // char x;
     // x=int('1');
     // cout<<x<<endl;
@@ -23,7 +31,7 @@ int main(){
     //     cout<<word<<" ";
     //     i++;
     // }
-    cout<<'c'-'a';
+    // cout<<'c'-'a';
     // list<vector<int>> togo;
     // togo.push_back({3,3});
     // for (auto x : togo){
