@@ -1,19 +1,31 @@
 #include <vector>
 #include <iostream>
 #include <vector>
+#include <stack>
 #include <algorithm>
 using namespace std;
+int main(){
+    vector<string> tokens={"2","1","+","3","*"};
+    cout<<stoi(tokens[0])<<endl;
+    cout<<typeid(tokens[1][0]-'0').name()<<endl;
+    cout<<tokens[1][0]-'0'<<endl;
+    stack <string> stack;
+    stack.push(tokens[0]); 
+    cout<<typeid(stack.top()).name()<<endl;
+    string a="5we";
+    cout<<typeid(a).name();
+}
 // int main(){
 //     vector<int> lol{9};
 //     lol.resize(2);
 //     for(int i=lol.size();i>0;i--){
 //         lol[i]=lol[i-1];
 //     }
-//     lol[0]=1;
+//     // lol[0]=1;
 //     for(auto x : lol){
 //         cout<< x << " ";
 //     }
-//     cout<<lol.size();
+    // cout<<lol.size();
 // }
 // int main(){
 //     int arr[]={1,2,3};
@@ -39,16 +51,16 @@ using namespace std;
 //             }
 // }
 
-int main(){
-    vector <int> nums1 {1,6};
-    vector <int> nums2 {4,2,3};
-    nums2[2]=7;
-    nums1.insert(nums1.end(),nums2.begin()+1,nums2.end());
-    nums1.resize(0);
-    cout<< nums1.size()<<endl;
-    for (vector<int>:: iterator it = nums1.begin();it!=nums1.end();++it){
-        cout<<*it<<endl;
-    }
+// int main(){
+//     vector <int> nums1 {1,6};
+//     vector <int> nums2 {4,2,3};
+//     nums2[2]=7;
+//     nums1.insert(nums1.end(),nums2.begin()+1,nums2.end());
+//     nums1.resize(0);
+//     cout<< nums1.size()<<endl;
+//     for (vector<int>:: iterator it = nums1.begin();it!=nums1.end();++it){
+//         cout<<*it<<endl;
+//     }
 
 //     vector<int> nums={1,1,2};
 //     int len=nums.size();
@@ -59,12 +71,7 @@ int main(){
 //     while(itr!=nums.end()){
 //         if (nums[i]==nums[i-1]){
 //             nums.erase(itr);
-//             k=k+1;
-            
-            
-            
-            
-            
+//             k=k+1;           
 //         }
 //         else{
 //             i++;
@@ -83,4 +90,4 @@ int main(){
 // }
 // int p=10^2;
 // cout<<p;
-}
+// }
