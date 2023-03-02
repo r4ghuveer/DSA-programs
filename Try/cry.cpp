@@ -12,8 +12,8 @@ int main(){
 // 56  8         
 // 57  9
     int i=952;
-    string str=to_string(952);
-    str[1]='2';
+    string str=to_string(9);
+    str[0]='2';
     str.push_back('3');
     string str2;
     str2.push_back('0');
