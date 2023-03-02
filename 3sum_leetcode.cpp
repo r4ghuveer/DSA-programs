@@ -9,7 +9,6 @@ public:
         int target = -nums[i];
         int front = i + 1;
         int back = nums.size() - 1;
-
         while (front < back) {
 
             int sum = nums[front] + nums[back];
