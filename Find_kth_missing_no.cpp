@@ -19,6 +19,7 @@ int main(){
     //Here l+k is simplification of : - {  arr[m] - ((arr[m]-(m+1)) - k + 1) }
 }       
 /* 
+
 arr=[2,3,5,9]
 org=[1,2,3,4]   , at arr[2] there should be org[2] if there would be no missing numbers
 fin=[1,1,2,5]  , so after subtracting arr[x]-org[x] we get number of missing numbers, for ex, arr[2]-org[2] = 5-3 = 2, so there are 2 missing numbers i.e. 1,3
