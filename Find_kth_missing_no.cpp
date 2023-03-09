@@ -14,6 +14,7 @@ int main(){
         else{
             r=m-1;
         }
+        
     }
     cout<<l+k;
     //Here l+k is simplification of : - {  arr[m] - ((arr[m]-(m+1)) - k + 1) }
