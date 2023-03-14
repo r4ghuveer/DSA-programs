@@ -11,6 +11,7 @@ int main(){
         if(arr[m]-(m+1)<k){
             l=m+1;
         }
+        
         else{
             r=m-1;
         }
