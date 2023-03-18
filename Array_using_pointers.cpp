@@ -8,4 +8,5 @@ int main(){
     for (p=&arr[0];p<=&arr[2];p++){
         cout<<*p<<endl;
     }
+    
 }
