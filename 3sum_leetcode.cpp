@@ -10,7 +10,6 @@ public:
         int back = nums.size() - 1;
         while (front < back) {
             int sum = nums[front] + nums[back];
-            
             // Finding answer which start from number num[i]
             if (sum < target)
                 front++;
