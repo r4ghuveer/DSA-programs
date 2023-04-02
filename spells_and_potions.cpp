@@ -20,6 +20,7 @@ public:
         for (int spell: spells) {
             res.push_back(potions.size()- valid_pos(potions, success, spell));
         }
+        
         return res;
     }
 };
