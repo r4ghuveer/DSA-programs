@@ -13,6 +13,7 @@ public:
 
 // Using the formula (success + spell - 1) // spell,
 // (12 + 5 - 1) // 5 = 16 // 5 = 3
+
 // (12 + 7 - 1) // 7 = 18 // 7 = 2
 
 // 3 and 2 are the values of potion_needed, for respective spell strengths 5 and 7.
