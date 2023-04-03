@@ -12,7 +12,6 @@ public:
 // You need to round up 12 // 5 to 3 and 12 // 7 to 2, so that potion_needed * spell > success.
 
 // Using the formula (success + spell - 1) // spell,
-
 // (12 + 5 - 1) // 5 = 16 // 5 = 3
 // (12 + 7 - 1) // 7 = 18 // 7 = 2
 
