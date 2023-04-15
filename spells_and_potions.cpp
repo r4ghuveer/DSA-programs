@@ -23,7 +23,6 @@ public:
 // (12 + 3) // 3 = 15 // 3 = 5 (incorrectly gives you 5 as the minimum. Hence you need to do -1)
 
 // Hope this helps.
-
         int l=0,r=potions.size();
         while(l<r){
             int mid = l + (r-l)/2;
