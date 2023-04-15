@@ -3,6 +3,7 @@ public:
     int valid_pos(vector<int>& potions, long long success, int spell){
         long potion_needed = (success + spell - 1) / spell;
         (success + spell - 1) 
+        
 // spell is used to round up the value of potion_needed.
 // For example, if success = 12, spells = [2, 5, 7]
 
