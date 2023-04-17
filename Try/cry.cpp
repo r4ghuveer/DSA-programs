@@ -12,6 +12,7 @@ int main(){
     for(auto x : vec){
         cout<<x<<" ";
     }
+    cout<<int(')'-'a');
 // 48  0 
 // 49  1         
 // 50  2         
