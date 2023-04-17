@@ -9,6 +9,7 @@ public:
                                    { 'D' , 500 },
                                    { 'M' , 1000 } };
         int total=roman[s.back()];
+        
         unordered_map<string,int> :: iterator itr;
         for (int i=s.length()-2; i>=0;--i){
             if(roman[s[i]]<roman[s[i+1]]){
