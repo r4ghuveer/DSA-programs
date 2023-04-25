@@ -13,5 +13,4 @@ public:
         int sum=(ans[0]*10+ans[3])+ans[1]*10+ans[2];
         return sum;
     }
-    
 };
