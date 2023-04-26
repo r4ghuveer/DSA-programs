@@ -12,7 +12,7 @@ int main(){
     for(auto x : vec){
         cout<<x<<" ";
     }
-    cout<<int(')'-'a');
+    cout<<1-'0';
 // 48  0 
 // 49  1         
 // 50  2         
