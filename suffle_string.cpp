@@ -9,6 +9,5 @@ public:
             i++;
         } 
         return ans;
-        
     }
 };
