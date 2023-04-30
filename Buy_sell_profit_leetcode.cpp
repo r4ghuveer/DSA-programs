@@ -13,3 +13,17 @@ int main (){
     }
     cout<< ovr_profit;
 }
+// class Solution {
+// public:
+//     int maxProfit(vector<int>& prices) {
+//         int buy_low = prices[0], curr_profit = 0, ovr_profit = 0;
+//         for(int  i = 1; i < prices.size(); i++){
+//             if(prices[i]<buy_low){ // here we are checking whether price is lower than our previous buy to make maximum profit
+//                 buy_low = prices[i];
+//             }
+//             curr_profit = prices[i]-buy_low;
+//             ovr_profit=max(curr_profit,ovr_profit);// maximizing profit
+//         }
+//         return ovr_profit;
+//     }
+// };
