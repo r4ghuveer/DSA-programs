@@ -30,7 +30,6 @@ public:
             }
             
         }
-
         // Processing duplicates of Number 1
         while (i + 1 < nums.size() && nums[i + 1] == nums[i]) 
             i++;
