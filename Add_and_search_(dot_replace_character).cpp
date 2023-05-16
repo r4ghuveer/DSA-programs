@@ -11,7 +11,6 @@ private:
     TrieNode* root;
     TrieNode* curr;
     char c;
-    
 public:
     WordDictionary() {
         root = new TrieNode();
