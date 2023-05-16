@@ -15,7 +15,6 @@ public:
 
             else if (sum > target)
                 back--;
-
             else {
                 vector<int> triplet = {nums[i], nums[front], nums[back]};
                 res.push_back(triplet);
