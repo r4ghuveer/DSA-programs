@@ -5,7 +5,6 @@ public:
     TrieNode(bool b = false){
         word= b; 
     }
-    
 };
 class WordDictionary {
 private:
