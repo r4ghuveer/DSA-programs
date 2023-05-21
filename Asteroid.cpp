@@ -16,6 +16,7 @@ public:
                 s.pop_back(); // destroy positive star on the frontier;
             } // else : positive on stack bigger, negative star destroyed.
         }
+        
         return s;
     }
 };
