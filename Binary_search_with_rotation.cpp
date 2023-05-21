@@ -10,6 +10,7 @@ public:
             if(A[mid]>A[hi]) lo=mid+1;
             else hi=mid;
         }
+        
         // lo==hi is the index of the smallest value and also the number of places rotated.
         int rot=lo;
         lo=0;hi=n-1;
