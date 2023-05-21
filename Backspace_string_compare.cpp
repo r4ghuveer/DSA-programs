@@ -18,6 +18,7 @@ int main(){
             k++;
         }
     }
+    
     for(int i=0;i<t.size();i++)
     {
         if(t[i]=='#')
