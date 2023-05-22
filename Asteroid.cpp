@@ -4,6 +4,7 @@ Stack
 
 */
 
+
 class Solution {
 public:
     vector<int> asteroidCollision(vector<int>& a) {
