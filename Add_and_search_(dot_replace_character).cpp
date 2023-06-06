@@ -4,8 +4,7 @@ public:
     unordered_map<char,TrieNode*> children;
     TrieNode(bool b = false){
         word= b; 
-    }
-    
+    } 
 };
 class WordDictionary {
 private:
