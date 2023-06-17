@@ -43,6 +43,7 @@ int main(){
         }
         
     }
+    
     while(!stack_exp.empty()){
         A=stack_exp.top();
         ans.append(1,A);
