@@ -14,6 +14,6 @@ class A{
 
 int  main() {
     A obj;
-    int ans=obj.rec(3,2);
+    int ans=obj.rec(5,5);
     cout<<ans;
 }
