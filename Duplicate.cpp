@@ -1,8 +1,9 @@
 // C++ program to remove the duplicateelements in an array
 #include <iostream>
 #include <unordered_map>
-using namespace std;
 
+
+using namespace std;
 void remove_duplicate_elements(int arr[], int n)
 {
 // Hash map which will store the elements which has appeared previously.
