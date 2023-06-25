@@ -22,7 +22,6 @@ void back(queue<int>& nums,int temp,int n){
     }
     nums.push(keep);
 }
-
 void sort_queue(queue<int>& nums){
     // 8 2 1 4 6 3
     // 8 2 4 6 3 1
