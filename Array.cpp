@@ -14,6 +14,7 @@ int main(){
     cout<<&arr[0]<<endl;
     cout<<&arr[1]<<endl;
     cout<<&arr[2]<<endl;
+    
     // for (int i : arr){
     //     cout<<i<<" ";
     // }
