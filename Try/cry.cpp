@@ -1,7 +1,14 @@
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
+    vector<vector<int>> ans={{1,3},{2,5},{6,3},{0,9}};
+    sort(ans.begin(),ans.end());
+    for(auto x : ans){
+        cout<<x[0]<<" "<<x[1]<<" ";
+    }
+    cout<<" ";
     string a="101";
+    cout<<a[0]-'0'<<endl;
     cout<<int(a[0])<<endl;
     vector<int> vec={1,2,3,4,5};
     vector<int>:: iterator it=vec.begin()+1;
