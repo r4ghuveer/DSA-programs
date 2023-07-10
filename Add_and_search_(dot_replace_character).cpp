@@ -5,6 +5,7 @@ public:
     TrieNode(bool b = false){
         word= b; 
     }
+
     
 };
 
