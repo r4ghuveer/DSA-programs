@@ -8,6 +8,7 @@ int main(){
         { 
         if(s[i]=='#')
         {
+            
             k--;
                 k=max(0,k);
         }
