@@ -4,6 +4,7 @@ using namespace std;
 int main(){
     int arr[3];
     int i=0;
+    
     while (i<3){
         int in;
         cin>>in;
