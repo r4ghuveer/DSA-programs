@@ -7,6 +7,7 @@ public:
             A[i] %= 10;
         }
         while (K > 0) {
+            
             A.insert(A.begin(), K % 10);
             K /= 10;
         }

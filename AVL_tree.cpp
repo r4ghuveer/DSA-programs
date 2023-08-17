@@ -1,15 +1,12 @@
 #include<iostream>
-
 #define SPACE 10
-
 using namespace std;
-
-
 class TreeNode {
   public:
     int value;
   TreeNode * left;
   TreeNode * right;
+
 
   TreeNode() {
     value = 0;
