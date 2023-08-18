@@ -7,7 +7,6 @@ class TreeNode {
   TreeNode * left;
   TreeNode * right;
 
-
   TreeNode() {
     value = 0;
     left = NULL;
